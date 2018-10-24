@@ -1,5 +1,5 @@
 /* for block of numbers */
-td.hljs-ln-numbers {
+.hljs td.hljs-ln-numbers {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -7,16 +7,21 @@ td.hljs-ln-numbers {
     -ms-user-select: none;
     user-select: none;
 
-    text-align: center;
+    text-align: right;
     color: #ccc;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
     border-right: 1px solid #CCC;
     vertical-align: top;
-    padding-right: 5px;
-
-    /* your custom style here */
+    word-break: normal;
+    word-wrap: normal;
+    padding: 0 5px 0 0;
+    width: 20px;
 }
 
 /* for block of code */
-td.hljs-ln-code {
-    padding-left: 10px;
+.hljs td.hljs-ln-code {
+    padding: 0 0 0 8px;
+    border: none;
 }
